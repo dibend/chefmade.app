@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChefMade.app - Farm to Your Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background: #5a9c6e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #4a8b5a;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: url('https://source.unsplash.com/1600x900/?farm-to-table') no-repeat center center/cover;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+        }
+
+        .section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            padding: 20px;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .card h3 {
+            margin: 15px 0 10px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer a {
+            color: #5a9c6e;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>ChefMade.app</h1>
+        <p>Farm to your table by Chef Michael DiBenedetto</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero">
+        <h1>Fresh Ingredients, Authentic Recipes</h1>
+        <p>Your journey to delightful meals starts here.</p>
+    </section>
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>Chef Michael DiBenedetto brings farm-fresh produce and artisanal recipes directly to your table, ensuring every meal is a memorable experience.</p>
+    </section>
+    <section id="services" class="section">
+        <h2>Our Services</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="https://source.unsplash.com/300x200/?vegetables" alt="Fresh Vegetables">
+                <h3>Farm Fresh Produce</h3>
+                <p>Locally sourced fruits and vegetables delivered to your doorstep.</p>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/300x200/?gourmet" alt="Gourmet Meals">
+                <h3>Chef-Prepared Meals</h3>
+                <p>Chef Michael prepares a farm-to-table meal of his choosing for you, crafted with love and the freshest ingredients.</p>
+            </div>
+            <div class="card">
+                <img src="https://source.unsplash.com/300x200/?cooking" alt="Cooking Classes">
+                <h3>Cooking Classes</h3>
+                <p>Learn the secrets of farm-to-table cooking from Chef Michael.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>To schedule an appointment or book a meal, contact Chef Michael's brother, David.</p>
+        <p>Phone: <a href="tel:9085776850">908-577-6850</a></p>
+        <p>Email: <a href="mailto:chef@chefmade.app">chef@chefmade.app</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2025 ChefMade.app | <a href="https://github.com">GitHub</a> | <a href="https://netlify.com">Netlify</a></p>
+    </footer>
+</body>
+
+</html>
